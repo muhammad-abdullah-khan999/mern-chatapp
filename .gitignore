@@ -1,0 +1,23 @@
+# Dependencies (covers both root, server, and client)
+**/node_modules/
+npm-debug.log*
+yarn-debug.log*
+
+# Environment variables
+.env
+*.env
+.env.*
+
+# Frontend build outputs
+client/build/
+client/dist/
+
+# Logs & testing
+*.log
+coverage/
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
